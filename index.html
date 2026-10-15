@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Game Hub Prime</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #3730a3;
+      --primary-light: #eef2ff;
+      --text: #1f2937;
+      --text-muted: #4b5563;
+      --bg: #f9fafb;
+      --surface: #ffffff;
+      --border: #e5e7eb;
+      --success: #10b981;
+      --success-light: #ecfdf5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #818cf8;
+        --primary-dark: #6366f1;
+        --primary-light: #1e1b4b;
+        --text: #f3f4f6;
+        --text-muted: #9ca3af;
+        --bg: #0f172a;
+        --surface: #1e293b;
+        --border: #334155;
+        --success: #34d399;
+        --success-light: #064e3b;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--surface);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: #ffffff;
+      padding: 40px 32px;
+      text-align: left;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      font-size: 1.05rem;
+      opacity: 0.9;
+    }
+    .meta-bar {
+      background: var(--primary-light);
+      padding: 14px 32px;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .meta-bar strong {
+      color: var(--text);
+    }
+    .content {
+      padding: 36px 32px;
+    }
+    .highlight-card {
+      background: var(--success-light);
+      border: 1px solid var(--success);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 32px;
+    }
+    .highlight-card h3 {
+      color: var(--success);
+      font-size: 1.15rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .highlight-card ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 10px;
+      padding-left: 0;
+    }
+    .highlight-card li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 1.45rem;
+      color: var(--text);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--border);
+    }
+    h3 {
+      font-size: 1.15rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    p, ul, ol {
+      margin-bottom: 14px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    ul, ol {
+      padding-left: 24px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: var(--primary-light);
+      color: var(--text);
+      font-weight: 600;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    .contact-box {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 24px 0;
+    }
+    .contact-box a {
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 32px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    @media (max-width: 600px) {
+      header { padding: 28px 20px; }
+      header h1 { font-size: 1.7rem; }
+      .meta-bar { padding: 12px 20px; }
+      .content { padding: 24px 20px; }
+      footer { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p>Game Hub Prime (Android Application)</p>
+    </header>
+
+    <div class="meta-bar">
+      <div><strong>Effective Date:</strong> October 15, 2026</div>
+      <div><strong>Last Updated:</strong> October 15, 2026</div>
+      <div><strong>Package:</strong> <code>com.aistudio.applet.jpctyo</code></div>
+      <div><strong>Developer:</strong> Moleculars Studio</div>
+    </div>
+
+    <div class="content">
+      <div class="highlight-card">
+        <h3>🛡️ Quick Privacy Summary</h3>
+        <ul>
+          <li>✅ <strong>100% Offline:</strong> No internet access required.</li>
+          <li>✅ <strong>Zero Data Collection:</strong> We do not collect or transmit personal data.</li>
+          <li>✅ <strong>No Advertisements:</strong> Free from ad SDKs and commercial trackers.</li>
+          <li>✅ <strong>Local Storage Only:</strong> Preferences & scores stay on your device.</li>
+          <li>✅ <strong>No Account Required:</strong> Jump straight into games.</li>
+          <li>✅ <strong>Family & Kid-Safe:</strong> Compliant with COPPA and Google Play policies.</li>
+        </ul>
+      </div>
+
+      <h2>1. Introduction</h2>
+      <p>
+        Welcome to <strong>Game Hub Prime</strong> (referred to as "the App", "we", "us", or "our"). We are committed to protecting your privacy and providing a safe, enjoyable gaming experience. This Privacy Policy explains our practices regarding data privacy, local data storage, and device permissions for users worldwide.
+      </p>
+      <p>
+        The App is an all-in-one offline casual games collection featuring classic titles including Ludo, Sudoku, 2048, Tic-Tac-Toe, Minesweeper, Memory Match, Number Guess, Hangman, Word Search, Connect Four, Rock Paper Scissors, Sliding Puzzle, Simon Says, Four-in-a-Row, Color Match, and Math Quiz.
+      </p>
+
+      <h2>2. Information We Do NOT Collect</h2>
+      <p>
+        We believe that your personal data belongs to you. The App operates under a strict <strong>Zero Data Collection</strong> policy:
+      </p>
+      <ul>
+        <li><strong>No Personally Identifiable Information (PII):</strong> We do not collect names, email addresses, phone numbers, home addresses, or government IDs.</li>
+        <li><strong>No Network or Device Identifiers:</strong> We do not collect IP addresses, MAC addresses, IMEI, Android Advertising IDs (AAID), or hardware serial numbers.</li>
+        <li><strong>No Precise Location Data:</strong> We do not request GPS, Wi-Fi, or cellular network location.</li>
+        <li><strong>No Media, Camera, or Audio:</strong> We do not access your photos, camera, microphone, or external storage files.</li>
+        <li><strong>No Behavioral or Telemetry Tracking:</strong> We do not track your usage habits across applications or websites.</li>
+      </ul>
+
+      <h2>3. Information Stored Locally on Your Device</h2>
+      <p>
+        The App stores a limited amount of non-sensitive configuration data locally on your device via Android's native <code>SharedPreferences</code> to allow the games to function properly between sessions:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Stored Item</th>
+            <th>Purpose</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Player Display Name</strong></td>
+            <td>Used solely to personalize greetings within the offline game UI.</td>
+            <td>Device internal storage only</td>
+          </tr>
+          <tr>
+            <td><strong>Language Preference</strong></td>
+            <td>Remembers your interface language selection (English / Hindi).</td>
+            <td>Device internal storage only</td>
+          </tr>
+          <tr>
+            <td><strong>Audio & Haptic Toggles</strong></td>
+            <td>Remembers your preference for sound effects and vibration feedback.</td>
+            <td>Device internal storage only</td>
+          </tr>
+          <tr>
+            <td><strong>Theme Mode</strong></td>
+            <td>Remembers your theme selection (System Default / Light / Dark).</td>
+            <td>Device internal storage only</td>
+          </tr>
+          <tr>
+            <td><strong>Offline Game Statistics</strong></td>
+            <td>Records high scores, wins, games played, and best completion times.</td>
+            <td>Device internal storage only</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <em>Note: This information is never uploaded, synced to cloud servers, or transmitted to any third party. It resides entirely on your device sandboxed storage.</em>
+      </p>
+
+      <h2>4. Device Permissions</h2>
+      <p>
+        We adhere to the principle of least privilege. The App only requests the following permission:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Classification</th>
+            <th>Reason & Usage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>android.permission.VIBRATE</code></td>
+            <td>Normal (Install-time)</td>
+            <td>Provides subtle tactile haptic feedback when tapping game buttons and making moves (can be toggled off in Settings).</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The App <strong>does NOT request</strong> the <code>INTERNET</code> permission, meaning the application cannot connect to the internet or send data over the network under any circumstances.
+      </p>
+
+      <h2>5. Third-Party Services and Analytics</h2>
+      <p>
+        Game Hub Prime does not integrate any third-party SDKs, tracking libraries, analytics frameworks, or external APIs.
+      </p>
+      <ul>
+        <li>No Google Analytics / Firebase Analytics</li>
+        <li>No Facebook SDK or social trackers</li>
+        <li>No crash report transmission services</li>
+      </ul>
+
+      <h2>6. Advertising Policy</h2>
+      <p>
+        The App is completely ad-free. We do not display banner ads, interstitial ads, rewarded video ads, or native advertisements. We do not integrate any advertising networks (such as Google AdMob, Unity Ads, AppLovin, etc.).
+      </p>
+
+      <h2>7. Data Retention, Reset, and Deletion</h2>
+      <p>
+        Because all game data is stored exclusively on your device, you have full control over your data at all times:
+      </p>
+      <ul>
+        <li><strong>In-App Reset:</strong> Navigate to <em>Settings &gt; Data &amp; Storage</em> and tap <strong>"Reset Statistics"</strong> to permanently wipe all stored scores, play counts, and records.</li>
+        <li><strong>Change Name:</strong> You can edit or clear your local display name at any time from the Settings screen or the home banner.</li>
+        <li><strong>System App Data Deletion:</strong> You can clear all data at once via Android Settings &gt; Apps &gt; Game Hub &gt; Storage &gt; Clear Storage.</li>
+        <li><strong>Uninstall:</strong> Uninstalling the App completely and permanently deletes all local data and preferences stored by the App.</li>
+      </ul>
+
+      <h2>8. Children's Privacy (COPPA & Google Play Families Policy)</h2>
+      <p>
+        Protecting the privacy of children is especially important to us. Game Hub Prime is designed to be family-friendly and safe for players of all ages, including children under 13 years of age.
+      </p>
+      <ul>
+        <li>We do not collect any personal information from children or adults.</li>
+        <li>We do not require account registration, social login, or email addresses.</li>
+        <li>We do not serve targeted advertisements or behavioral marketing.</li>
+        <li>The App is fully compliant with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and the <strong>Google Play Families Policy</strong>.</li>
+      </ul>
+
+      <h2>9. International Data Protection Rights (GDPR & CCPA / CPRA)</h2>
+      <p>
+        Under data protection regulations including the EU/UK General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA/CPRA):
+      </p>
+      <ul>
+        <li><strong>Right to Know / Access:</strong> You have the right to know what data is collected. As stated, we collect zero personal data.</li>
+        <li><strong>Right to Deletion:</strong> You can delete all local data at any time via the in-app "Reset Statistics" button or by clearing app storage.</li>
+        <li><strong>Right to Opt-Out of Sale / Sharing:</strong> We do not sell, rent, or share any personal data with any third party.</li>
+      </ul>
+
+      <h2>10. Security</h2>
+      <p>
+        We take security seriously. Because the App does not transmit data over the internet or communicate with remote servers, your gameplay data is protected from interception, remote database breaches, and server-side vulnerabilities. Android's internal sandbox security isolates the App's local storage from other applications on your device.
+      </p>
+
+      <h2>11. Changes to This Privacy Policy</h2>
+      <p>
+        We may update our Privacy Policy from time to time to reflect improvements or regulatory requirements. Any updates will be included in subsequent application releases and posted in the updated document with a revised "Last Updated" date. We encourage you to review this page periodically.
+      </p>
+
+      <h2>12. Contact Us</h2>
+      <p>
+        If you have any questions, concerns, or feedback regarding this Privacy Policy or the privacy practices of Game Hub Prime, please contact us:
+      </p>
+      <div class="contact-box">
+        <strong>Moleculars Studio</strong><br />
+        Email: <a href="mailto:molecularsstudio@gmail.com">molecularsstudio@gmail.com</a><br />
+        Subject: <em>Game Hub Prime - Privacy Inquiry</em>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 Moleculars Studio. All rights reserved. • Game Hub Prime
+    </footer>
+  </div>
+</body>
+</html>
